@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: fffe28182a431fc4fa81d12dc22b4780
-timeCreated: 1449705035
+timeCreated: 1449757081
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -191,7 +191,38 @@ ModelImporter:
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
+      curves:
+      - name: CurveIkWeight
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .23245573
+            value: .100240454
+            inSlope: 1.64302075
+            outSlope: 1.64302075
+            tangentMode: 10
+          - time: .546010137
+            value: .995381117
+            inSlope: -.495213747
+            outSlope: -.495213747
+            tangentMode: 10
+          - time: .768379927
+            value: .140314758
+            inSlope: -2.22552109
+            outSlope: -2.22552109
+            tangentMode: 10
+          - time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
       events: []
       transformMask:
       - path: 
